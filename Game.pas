@@ -197,7 +197,7 @@ begin
      else if ((a1<>' ') and (a2<>' ') and (a3<>' ') and (a4<>' ') and (a5<>' ') and (a6<>' ') and (a7<>' ') and (a8<>' ') and (a9<>' ')) then
      begin
        repeat
-       Writeln('Ничья. Вы решили остать друзьями с пративником!');
+       Writeln('Ничья. Вы решили остаться друзьями с противником!');
        Writeln('Желаете сыграть ещё раз?      1-Да  2-Не');
        read(v);
        if v = 2 then exit
